@@ -1,4 +1,4 @@
-1. 安装git工具,注册github帐号
+## 1. 安装git工具,注册github帐号
 
 Git工具的安装在Windows或Mac都相当简单, [建议参考这份指南](https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git)即可。装完git请到本地打开terminal，用"git --version"来测试是否正确运行，本例显示了版本2.18.0。 git版本号有些差异无妨，版本不要太旧即可。
 
@@ -8,7 +8,7 @@ git安装完成后，再到 [github官方网站](https://github.com/) 注册个�
 
 <img src="/public/n6t0M9n16MlG76C6OnA_img_1.png" width="640">
 
-2. 如何建立repo
+## 2. 如何建立repo
 
 若顺利注册与登入帐号，可如下图红圈处前往自己的 Profile
 
@@ -42,7 +42,7 @@ Git工具会记住这个目录与github有联系，因为它在里面加了个�
 
 <img src="/public/n6t0M9n16MlG76C6OnA_img_7.png" width="640">
 
-3. 如何本地编辑
+## 3. 如何本地编辑
 
 可以在项目的目录里，直接新增/修改/删除自己的文档，在提交以前，本地的变更都不会存到 github 上。
 
@@ -50,9 +50,9 @@ Git工具会记住这个目录与github有联系，因为它在里面加了个�
 
 <img src="/public/n6t0M9n16MlG76C6OnA_img_8.png" width="640">
 
-4. 如何提交作业
+## 4. 如何提交作业
 
-* add 新档案
+#### * add 新档案
 
 写好自己的程序或作业之后，本地应该多了很多档案和目录，首先我们要把让git知道有这个档案或子目录的存在，用命令 git add。
 ```
@@ -62,7 +62,7 @@ git add <filename>
 
 因为 test.py 在此是第一次出现的档案，我们才用 git add 告知 git 工具。新档案被 add 过后，未来修改它都不需要再 add。
 
-* 提交作业
+#### * 提交作业
 
 提交动作分成 commit 和 push 两个 terminal 命令。
 
@@ -106,17 +106,19 @@ Ok，大功告成，接着把 repo 网址给出去，TA 或老师就能自己下
 
 以后还想修改自己作业，只要在本地反覆 commit + push 就行了，当然如果有全新的档案或子目录，要记得先 add 它们一次。
 
-5. 如何下载老师的code
+## 5. 如何下载老师的code
 
 分成第一次下载以及后续更新两种情形。
 
-* 第一次下载
+#### * 第一次下载
 
 第一次下载老师的code跟下载自己或任何人的code方法相同
 
 先前往班主任给的项目repo网址，在下图红圈处copy repo的网址
 
-<img src="/public/n6t0M9n16MlG76C6OnA_img_16.png" width="640">
+<kbd>
+  <img src="/public/n6t0M9n16MlG76C6OnA_img_16.png" width="640">
+</kbd>
 
 然后回 terminal，git clone 它就成了，例如 
 
@@ -127,7 +129,7 @@ git clone <your link>
 
 记得把上图的 repo 网址换成刚刚 copy 的。
 
-* 后续更新
+#### * 后续更新
 
 如果做过一次 clone，老师后来又更新了code，我们就不需要 clone 而是用 pull 来更新。
 
@@ -139,7 +141,7 @@ git pull
 
 Ok，到此就下载老师code了，任何时候或着收到通知，git pull 一下就能让本地有老师最新的版本。
 
-6. 操作建议
+## 6. 操作建议
 
 我们先按照 "6.如何下载老师的code" 将档案都下载成为目录。
 
