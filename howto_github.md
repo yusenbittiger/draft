@@ -102,9 +102,16 @@ git push
 
 <img src="/public/n6t0M9n16MlG76C6OnA_img_15.png" width="640">
 
-Ok，大功告成，接着把 repo 网址给出去，TA 或老师就能自己下载这份作业了。
+Ok，大功告成，以后还想修改自己作业，只要在本地反覆 commit + push 就行了，当然如果有全新的档案或子目录，要记得先 add 它们一次。
 
-以后还想修改自己作业，只要在本地反覆 commit + push 就行了，当然如果有全新的档案或子目录，要记得先 add 它们一次。
+#### 4-3 在BitTiger - Dashboard 提交作业
+
+接着在作业due 之前，前往 BitTiger , 找到你的课程主页 Dashboard，点击对应的作业提交窗口。例如
+
+
+
+在打开后的页面提交你的github repo link，TA 或老师就能下载这份作业了。
+
 
 ## 5. 如何下载老师的code
 
