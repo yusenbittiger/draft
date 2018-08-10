@@ -108,7 +108,7 @@ Ok，大功告成，以后还想修改自己作业，只要在本地反覆 commi
 
 接着在作业due 之前，前往 BitTiger , 找到你的课程主页 Dashboard，点击对应的作业提交窗口。例如
 
-
+<img src="/public/n6t0M9n16MlG76C6OnA_img_19.png" width="600">
 
 在打开后的页面提交你的github repo link，TA 或老师就能下载这份作业了。
 
